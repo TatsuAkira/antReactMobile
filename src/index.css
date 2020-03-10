@@ -16,3 +16,19 @@ body {
   /* 解决移动端滑动事件优化问题的，在当前项目中，解决 轮播图组件 手动滑动时，报错的问题 */
   touch-action: pan-y;
 }
+
+html,
+body,
+#root,
+.app {
+  height: 100%;
+}
+
+p,
+h3 {
+  margin: 0;
+}
+
+a {
+  color: #333;
+}

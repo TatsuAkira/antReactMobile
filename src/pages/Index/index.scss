@@ -1,0 +1,23 @@
+.index {
+  .swiper {
+    position: relative;
+    height: 212px;
+  }
+  // 导航
+  .nav {
+    padding: 10px 0;
+    text-align: center;
+    img {
+      width: 48px;
+      height: 48px;
+    }
+    a {
+      width: 100%;
+      height: 100%;
+    }
+    p {
+      margin-top: 7px;
+      font-size: 13px;
+    }
+  }
+}

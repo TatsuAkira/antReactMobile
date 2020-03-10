@@ -15,7 +15,7 @@ const App = () => {
     // 用BrowserRouter包裹整个应用
     <Router>
       <div className="app">
-        {/* App作为整个路由出口渲染 */}
+        {/* App作为整个路由出口渲染, 此处app高度100% */}
         {/* 跳转到Home组件  PS:跳转到首页 */}
         <Route exact path="/">
           <Redirect to="/home" />
